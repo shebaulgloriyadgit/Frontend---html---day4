@@ -1,0 +1,62 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  width: 320px;              /* CONTENT */
+  background-color: white;
+
+  padding: 20px;             /* INSIDE SPACE */
+  border: 2px solid #ccc;    /* BORDER */
+  margin: 50px auto;         /* OUTSIDE SPACE */
+
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* IMAGE */
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* NAME */
+.profile-card h2 {
+  margin-top: 10px;
+  color: #2c3e50;
+}
+
+/* ABOUT */
+.about {
+  color: green;
+  font-size: 16px;
+}
+
+/* LINK */
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* CONTACT */
+.contact {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* BUTTON */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c80b4;
+}
